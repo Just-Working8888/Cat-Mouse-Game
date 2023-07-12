@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    background: url(../img/333.jpg) center/cover;
+    /* cursor: url(../img/ooo.png) 4 12, auto ;
+    cursor: url(../img/yyy.png) 2 2, pointer ; */
+    
+}
+
+
+.app{
+    background: url(../img/222.jpg) center/cover;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 0px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 70px;
+   
+}
+
+.app__header{
+    padding: 20px;
+    text-align: center;
+}
+
+.app__content{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.hide{
+    display: none !important;
+}
+
+.game{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 350px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.btn{
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    font-family: GothamPro, sans-serif;
+    margin-bottom: 0;
+    padding: 1rem 2.3rem;
+    background-color: #f5b642;
+    border: 0px solid;
+    border-radius: 2.8rem;
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.3rem;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all linear 0.3s;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 0px 0px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+input{
+    padding: 0.8rem 1rem;
+    margin-top: 5px;
+    max-height: 2.8rem;
+    border-radius: 10px;
+    border: 1px solid #999;
+    color: #000;
+    line-height: 1.4;
+    width: 100%;
+    display: block;
+    
+}
+
+label{
+    color: #adadad;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 3px;
+    color: #acacac;
+    font-weight: normal;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+   
+}
+
+#img_holder{
+    width: 300px;
+    height: 300px;
+}
